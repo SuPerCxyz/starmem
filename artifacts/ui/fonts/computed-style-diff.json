@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-09-17T00:16:39.393Z",
+  "properties": [
+    "fontFamily",
+    "fontSize",
+    "fontWeight",
+    "fontStyle",
+    "lineHeight",
+    "letterSpacing",
+    "fontFeatureSettings",
+    "textTransform",
+    "textRendering"
+  ],
+  "combinations": [
+    {
+      "key": "1440x1000-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "1440x1000-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "430x932-light",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "light",
+      "pass": true,
+      "differences": []
+    },
+    {
+      "key": "430x932-dark",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "dark",
+      "pass": true,
+      "differences": []
+    }
+  ],
+  "fatalError": null
+}

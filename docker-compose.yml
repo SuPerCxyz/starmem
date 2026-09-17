@@ -1,0 +1,77 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-starmem}
+      POSTGRES_USER: ${POSTGRES_USER:-starmem}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-starmem}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-starmem} -d ${POSTGRES_DB:-starmem}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - starmem-postgres:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - starmem-redis:/data
+
+  api:
+    build:
+      context: ./backend
+    env_file:
+      - path: .env.example
+      - path: .env
+        required: false
+    command: >-
+      sh -c "alembic upgrade head && python -m app.seed &&
+      uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    volumes:
+      - starmem-fastembed:/tmp/fastembed_cache
+      - starmem-storage:/var/lib/starmem/attachments
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "0.0.0.0:${STARMEM_API_PORT:-18000}:8000"
+
+  worker:
+    build:
+      context: ./backend
+    env_file:
+      - path: .env.example
+      - path: .env
+        required: false
+    command: dramatiq app.worker
+    volumes:
+      - starmem-fastembed:/tmp/fastembed_cache
+      - starmem-storage:/var/lib/starmem/attachments
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./web
+    depends_on:
+      - api
+    ports:
+      - "0.0.0.0:${STARMEM_WEB_PORT:-18780}:80"
+
+volumes:
+  starmem-postgres:
+  starmem-redis:
+  starmem-fastembed:
+  starmem-storage:

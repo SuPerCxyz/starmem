@@ -1,0 +1,1016 @@
+{
+  "generatedAt": "2026-09-16T15:26:58.668Z",
+  "referenceUrl": "http://localhost:3000",
+  "starmemUrl": "http://localhost:18780",
+  "combinations": [
+    {
+      "key": "1440x1000-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "1440x1000-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "430x932-light",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "light",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    },
+    {
+      "key": "430x932-dark",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "dark",
+      "reference": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "starmem": {
+        "latin": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 7
+          }
+        ],
+        "number": [
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 19
+          }
+        ],
+        "chinese": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 9
+          }
+        ],
+        "mixed": [
+          {
+            "familyName": "Noto Sans CJK SC",
+            "postScriptName": "NotoSansCJKsc-Regular",
+            "glyphCount": 2
+          },
+          {
+            "familyName": "Noto Sans",
+            "postScriptName": "NotoSans-Regular",
+            "glyphCount": 26
+          }
+        ],
+        "monospace": [
+          {
+            "familyName": "Liberation Mono",
+            "postScriptName": "LiberationMono",
+            "glyphCount": 49
+          }
+        ]
+      },
+      "comparison": {
+        "pass": true,
+        "checks": [
+          {
+            "sample": "latin",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "number",
+            "reference": "Noto Sans",
+            "starmem": "Noto Sans",
+            "pass": true
+          },
+          {
+            "sample": "monospace",
+            "reference": "Liberation Mono",
+            "starmem": "Liberation Mono",
+            "pass": true
+          },
+          {
+            "sample": "chinese/mixed",
+            "reference": [
+              "Noto Sans CJK SC"
+            ],
+            "starmem": [
+              "Noto Sans CJK SC"
+            ],
+            "pass": true,
+            "allowed": "none; exact Tabler Reference CJK family required"
+          }
+        ]
+      }
+    }
+  ],
+  "fatalError": null
+}

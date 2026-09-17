@@ -1,0 +1,99 @@
+<div id="typography-fixture-root" class="page min-vh-100">
+  <aside class="navbar navbar-vertical navbar-expand-lg" aria-label="Fixture sidebar">
+    <div class="container-fluid">
+      <div class="navbar-brand navbar-brand-autodark">
+        <span class="d-flex align-items-center">
+          <span id="fixture-brand">StarMem</span>
+        </span>
+      </div>
+      <nav class="collapse navbar-collapse show" id="fixture-sidebar-menu">
+        <ul class="navbar-nav pt-lg-3">
+          <li class="nav-section-title">工作区</li>
+          <li class="nav-item"><a id="fixture-nav-capture" class="nav-link" href="#"><span class="nav-link-icon" aria-hidden="true"></span>记录</a></li>
+          <li class="nav-item"><a id="fixture-nav-timeline" class="nav-link" href="#"><span class="nav-link-icon" aria-hidden="true"></span>时间线</a></li>
+          <li class="nav-item"><a id="fixture-nav-search" class="nav-link" href="#"><span class="nav-link-icon" aria-hidden="true"></span>搜索</a></li>
+          <li class="nav-item"><a id="fixture-nav-ask" class="nav-link" href="#"><span class="nav-link-icon" aria-hidden="true"></span>问记忆</a></li>
+          <li class="nav-section-title">系统</li>
+          <li class="nav-item"><a id="fixture-nav-settings" class="nav-link" href="#"><span class="nav-link-icon" aria-hidden="true"></span>设置</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <header class="navbar navbar-expand-sm d-print-none">
+    <div class="container-xl">
+      <div class="navbar-nav flex-row">
+        <span class="nav-link">Typography Fixture</span>
+        <button id="fixture-nav-button" class="nav-link" type="button">导航按钮</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+    <header class="page-header d-print-none">
+      <div class="container-xl">
+        <div class="row g-2 align-items-center">
+          <div class="col">
+            <h1 id="fixture-page-title" class="page-title">有什么需要记住的？</h1>
+            <div id="fixture-subtitle" class="text-secondary mt-1">StarMem 会自动整理和关联。</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-body">
+      <div class="container-xl">
+        <div class="row row-cards">
+          <div class="col-lg-8">
+            <section class="card" aria-labelledby="fixture-card-title">
+              <div class="card-header"><h2 id="fixture-card-title" class="card-title">Typography</h2></div>
+              <div class="card-body">
+                <p id="fixture-paragraph">StarMem 会自动整理和关联。V100 最终设置为 150W。</p>
+                <p id="fixture-muted" class="text-secondary">时间线 · 搜索 · 问记忆 · 设置</p>
+                <p id="fixture-latin">StarMem</p>
+                <p id="fixture-latin-search">Search</p>
+                <p id="fixture-latin-settings">Settings</p>
+                <p id="fixture-latin-inbox">Import Inbox</p>
+                <p id="fixture-number">18:41 · 150W · 3903</p>
+                <p id="fixture-chinese">有什么需要记住的？</p>
+                <p id="fixture-mixed">node-3903 multipath 出现 undef</p>
+                <p id="fixture-technical">node-3903 multipath undef</p>
+                <p id="fixture-uuid">traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57</p>
+                <pre id="fixture-code" class="mb-3"><code id="fixture-code-inline">service: starmem
+openstack volume create --size 10</code></pre>
+                <pre id="fixture-code-small" class="small mb-3">service: starmem</pre>
+                <button class="btn btn-link p-0 d-block mb-3" type="button"><pre id="fixture-code-button" class="mw-100 overflow-auto text-break">service: starmem</pre></button>
+                <div class="mb-3">
+                  <button id="fixture-button" class="btn btn-primary" type="button">已整理</button>
+                </div>
+                <label class="form-label" for="fixture-input">Input</label>
+                <input id="fixture-input" class="form-control mb-3" value="traversal-5ae296533-7e9b-474c-8c18-7f38c0b0047e" readonly />
+                <input id="fixture-cjk-input" class="form-control mb-3" value="设置" readonly />
+                <label class="form-label" for="fixture-select">Select</label>
+                <select id="fixture-select" class="form-select mb-3"><option value="review" selected>需复核</option></select>
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <span id="fixture-badge" class="badge bg-secondary-lt">需复核</span>
+                  <button id="fixture-badge-button" class="badge bg-secondary-lt" type="button">需复核</button>
+                  <span id="fixture-status" class="status status-green"><span class="status-dot"></span>已整理</span>
+                  <button id="fixture-status-button" class="status status-green border-0" type="button"><span class="status-dot"></span>已整理</button>
+                </div>
+                <small id="fixture-small" class="small">Small text</small>
+                <a id="fixture-link" class="link-primary ms-3" href="#">查看详情</a>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-4">
+            <section class="card" aria-labelledby="fixture-table-title">
+              <div class="card-header"><h2 id="fixture-table-title" class="card-title">Activity</h2></div>
+              <div class="table-responsive">
+                <table id="fixture-table" class="table table-vcenter">
+                  <tbody><tr><td id="fixture-table-cell">18:41</td><td>来源事实</td></tr></tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>

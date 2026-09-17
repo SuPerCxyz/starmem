@@ -1,0 +1,560 @@
+{
+  "generatedAt": "2026-09-16T15:26:58.668Z",
+  "referenceUrl": "http://localhost:3000",
+  "starmemUrl": "http://localhost:18780",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 430,
+      "height": 932
+    }
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "properties": [
+    "fontFamily",
+    "fontSize",
+    "fontWeight",
+    "fontStyle",
+    "lineHeight",
+    "letterSpacing",
+    "fontFeatureSettings",
+    "textTransform",
+    "textRendering"
+  ],
+  "selectors": [
+    "#fixture-brand",
+    "#fixture-page-title",
+    "#fixture-subtitle",
+    "#fixture-nav-timeline",
+    "#fixture-paragraph",
+    "#fixture-muted",
+    "#fixture-latin",
+    "#fixture-number",
+    "#fixture-chinese",
+    "#fixture-mixed",
+    "#fixture-code",
+    "#fixture-button",
+    "#fixture-input",
+    "#fixture-select",
+    "#fixture-badge",
+    "#fixture-status",
+    "#fixture-card-title",
+    "#fixture-table-cell",
+    "#fixture-small",
+    "#fixture-link"
+  ],
+  "maxPixelDiffRatio": 0.001,
+  "combinations": [
+    {
+      "key": "1440x1000-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1440,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "1440x1000-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1440,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 1440,
+          "clientWidth": 1440,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1920,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 1920,
+          "clientWidth": 1920,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 1920,
+          "clientWidth": 1920,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1920,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 1920,
+          "clientWidth": 1920,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 1920,
+          "clientWidth": 1920,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 390,
+        "height": 1689,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 390,
+        "height": 1689,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 390,
+          "clientWidth": 390,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "430x932-light",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "light",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 430,
+        "height": 1649,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 430,
+          "clientWidth": 430,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 430,
+          "clientWidth": 430,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    },
+    {
+      "key": "430x932-dark",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "dark",
+      "styles": {
+        "pass": true,
+        "differences": []
+      },
+      "boxes": {
+        "pass": true,
+        "differences": [],
+        "tolerance": 0.5
+      },
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 430,
+        "height": 1649,
+        "maxDiffRatio": 0.001
+      },
+      "overflow": {
+        "reference": {
+          "scrollWidth": 430,
+          "clientWidth": 430,
+          "overflow": 0
+        },
+        "starmem": {
+          "scrollWidth": 430,
+          "clientWidth": 430,
+          "overflow": 0
+        }
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      },
+      "pass": true
+    }
+  ],
+  "fatalError": null
+}

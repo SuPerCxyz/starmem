@@ -1,0 +1,1 @@
+"""StarMem application package."""

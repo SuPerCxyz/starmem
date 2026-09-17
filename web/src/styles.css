@@ -1,0 +1,25 @@
+@import "./vendor/tabler/tabler.css";
+@import "./vendor/tabler/dropzone.css";
+@import "./vendor/tabler/tabler-vendors.css";
+
+/* StarMem integration only: PWA safe area, browser overflow and motion. */
+.safe-area-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

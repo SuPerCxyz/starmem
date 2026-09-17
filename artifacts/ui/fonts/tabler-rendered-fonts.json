@@ -1,0 +1,4800 @@
+{
+  "generatedAt": "2026-09-17T00:16:39.393Z",
+  "target": "Tabler Reference",
+  "url": "http://localhost:3000",
+  "combinations": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 294,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 330,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 366,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 402,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 546,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 510,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 272,
+            "y": 24,
+            "width": 1152,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 129.140625,
+            "width": 240,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 438,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 812.921875,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 952.921875,
+            "width": 720.65625,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 1036.921875,
+            "width": 720.65625,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 1094.921875,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 411.90625,
+            "y": 1092.921875,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 474,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 582,
+            "width": 720.65625,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 664.28125,
+            "width": 720.65625,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 294,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 330,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 366,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 402,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 546,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 510,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 272,
+            "y": 24,
+            "width": 1152,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 129.140625,
+            "width": 240,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 438,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 812.921875,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 952.921875,
+            "width": 720.65625,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 293,
+            "y": 1036.921875,
+            "width": 720.65625,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 1094.921875,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 411.90625,
+            "y": 1092.921875,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 474,
+            "width": 720.65625,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 582,
+            "width": 720.65625,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 293,
+            "y": 664.28125,
+            "width": 720.65625,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 294,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 330,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 366,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 402,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 546,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 510,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 444,
+            "y": 24,
+            "width": 1288,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 129.140625,
+            "width": 240,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 438,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 812.921875,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 952.921875,
+            "width": 811.328125,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 1036.921875,
+            "width": 811.328125,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 1094.921875,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 583.90625,
+            "y": 1092.921875,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 474,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 582,
+            "width": 811.328125,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 664.28125,
+            "width": 811.328125,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 294,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 330,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 366,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 402,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 546,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 510,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 444,
+            "y": 24,
+            "width": 1288,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 129.140625,
+            "width": 240,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 438,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 812.921875,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 952.921875,
+            "width": 811.328125,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 465,
+            "y": 1036.921875,
+            "width": 811.328125,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 1094.921875,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 583.90625,
+            "y": 1092.921875,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 474,
+            "width": 811.328125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 582,
+            "width": 811.328125,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 465,
+            "y": 664.28125,
+            "width": 811.328125,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 149.40625,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 644.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 680.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 716.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 752.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 896.28125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 860.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 354.28125,
+            "width": 374,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 109.140625,
+            "width": 358,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 788.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1183.203125,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1323.203125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1407.203125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1465.203125,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 147.90625,
+            "y": 1463.203125,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 824.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 952.28125,
+            "width": 332,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1034.5625,
+            "width": 332,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 149.40625,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 644.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 680.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 716.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 752.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 896.28125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 860.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 354.28125,
+            "width": 374,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 109.140625,
+            "width": 358,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 788.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1183.203125,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1323.203125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1407.203125,
+            "width": 332,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1465.203125,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 147.90625,
+            "y": 1463.203125,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 824.28125,
+            "width": 332,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 952.28125,
+            "width": 332,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1034.5625,
+            "width": 332,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "light",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 169.40625,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 624.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 660.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 696.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 732.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 876.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 840.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 354.28125,
+            "width": 414,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 109.140625,
+            "width": 398,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 768.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1143.203125,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1283.203125,
+            "width": 372,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1367.203125,
+            "width": 372,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1425.203125,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 147.90625,
+            "y": 1423.203125,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 804.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 912.28125,
+            "width": 372,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 994.5625,
+            "width": 372,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    },
+    {
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "dark",
+      "documentFonts": {
+        "status": "loaded",
+        "checks": {
+          "inter": true,
+          "interVariable": true,
+          "notoSansSc": true
+        },
+        "body": {
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0"
+        }
+      },
+      "samples": {
+        "latin-title": {
+          "sample": "latin-title",
+          "kind": "latin",
+          "selector": "#fixture-brand",
+          "text": "StarMem",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 169.40625,
+            "y": 12,
+            "width": 91.1875,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ]
+        },
+        "latin-search": {
+          "sample": "latin-search",
+          "kind": "latin",
+          "selector": "#fixture-latin-search",
+          "text": "Search",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 624.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ]
+        },
+        "latin-settings": {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "selector": "#fixture-latin-settings",
+          "text": "Settings",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 660.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ]
+        },
+        "latin-inbox": {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "selector": "#fixture-latin-inbox",
+          "text": "Import Inbox",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 696.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ]
+        },
+        "number": {
+          "sample": "number",
+          "kind": "number",
+          "selector": "#fixture-number",
+          "text": "18:41 · 150W · 3903",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 732.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ]
+        },
+        "uuid": {
+          "sample": "uuid",
+          "kind": "uuid",
+          "selector": "#fixture-uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 876.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ]
+        },
+        "technical": {
+          "sample": "technical",
+          "kind": "technical",
+          "selector": "#fixture-technical",
+          "text": "node-3903 multipath undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 840.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ]
+        },
+        "cjk-title": {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "selector": "#fixture-page-title",
+          "text": "有什么需要记住的？",
+          "tagName": "H1",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "20px",
+            "fontWeight": "600",
+            "fontStyle": "normal",
+            "lineHeight": "28px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 8,
+            "y": 354.28125,
+            "width": 414,
+            "height": 28
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-navigation": {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "selector": "#fixture-nav-timeline",
+          "text": "时间线",
+          "tagName": "A",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 16,
+            "y": 109.140625,
+            "width": 398,
+            "height": 44
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-body": {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "selector": "#fixture-chinese",
+          "text": "有什么需要记住的？",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 768.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ]
+        },
+        "cjk-button": {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "selector": "#fixture-button",
+          "text": "已整理",
+          "tagName": "BUTTON",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1143.203125,
+            "width": 76,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-input": {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "selector": "#fixture-cjk-input",
+          "text": "设置",
+          "tagName": "INPUT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1283.203125,
+            "width": 372,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ]
+        },
+        "cjk-select": {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "selector": "#fixture-select",
+          "text": "需复核",
+          "tagName": "SELECT",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "normal",
+            "textTransform": "none",
+            "textRendering": "auto"
+          },
+          "box": {
+            "x": 29,
+            "y": 1367.203125,
+            "width": 372,
+            "height": 40
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-badge": {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "selector": "#fixture-badge",
+          "text": "需复核",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "12px",
+            "letterSpacing": "0.48px",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 1425.203125,
+            "width": 51.453125,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "cjk-status": {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "selector": "#fixture-status",
+          "text": "已整理",
+          "tagName": "SPAN",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 147.90625,
+            "y": 1423.203125,
+            "width": 82,
+            "height": 24
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ]
+        },
+        "mixed": {
+          "sample": "mixed",
+          "kind": "mixed",
+          "selector": "#fixture-mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "tagName": "P",
+          "styles": {
+            "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"San Francisco\", \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "20px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 804.28125,
+            "width": 372,
+            "height": 20
+          },
+          "platformFonts": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ]
+        },
+        "monospace-code": {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "selector": "#fixture-code",
+          "text": "service: starmem openstack volume create --size 10",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.1429px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 912.28125,
+            "width": 372,
+            "height": 66.28125
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ]
+        },
+        "monospace-pre": {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "selector": "#fixture-code-small",
+          "text": "service: starmem",
+          "tagName": "PRE",
+          "styles": {
+            "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+            "fontSize": "12.25px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "17.5px",
+            "letterSpacing": "normal",
+            "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\", \"liga\" 0",
+            "textTransform": "none",
+            "textRendering": "optimizelegibility"
+          },
+          "box": {
+            "x": 29,
+            "y": 994.5625,
+            "width": 372,
+            "height": 49.5
+          },
+          "platformFonts": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ]
+        }
+      },
+      "browser": {
+        "pass": true,
+        "consoleErrors": [],
+        "pageErrors": [],
+        "fontResponses": [],
+        "fontFailures": [],
+        "badFontResponses": [],
+        "badFontContentTypes": [],
+        "fontRequestDetails": [],
+        "fontRequests": 0
+      }
+    }
+  ],
+  "fatalError": null
+}

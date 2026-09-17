@@ -1,0 +1,184 @@
+[
+  {
+    "name": "observation_extract",
+    "description": "Extract evidence-backed observations from one Raw Entry.",
+    "prompt_text": "Extract only claims directly supported by the evidence. Do not invent facts.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "observation.v1",
+    "model_task": "observation",
+    "golden_cases": [
+      {
+        "name": "technical-note",
+        "input": {
+          "content": "node-3903 has a stale iscsi session."
+        },
+        "expected": {
+          "observation_type": "technical"
+        }
+      }
+    ]
+  },
+  {
+    "name": "classification",
+    "description": "Classify a Raw Entry without changing its content.",
+    "prompt_text": "Classify the entry into all useful content types. Return the primary type in content_type and the full set in content_types. Explain briefly.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "classification.v2",
+    "model_task": "classification",
+    "golden_cases": []
+  },
+  {
+    "name": "summary",
+    "description": "Create a concise evidence-grounded summary.",
+    "prompt_text": "Summarize the evidence in a few sentences. Separate facts from uncertainty.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "summary.v1",
+    "model_task": "summary",
+    "golden_cases": []
+  },
+  {
+    "name": "tag",
+    "description": "Suggest a small set of normalized tags.",
+    "prompt_text": "Suggest at most eight concise tags and reuse common existing terminology.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "tags.v1",
+    "model_task": "tag",
+    "golden_cases": []
+  },
+  {
+    "name": "entity_extract",
+    "description": "Extract technical and named entities.",
+    "prompt_text": "Extract only entities visible in the evidence with their types and mention text.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "entities.v1",
+    "model_task": "entity",
+    "golden_cases": []
+  },
+  {
+    "name": "time_extract",
+    "description": "Extract explicit temporal expressions.",
+    "prompt_text": "Extract explicit times and temporal phrases; do not infer dates that are absent.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "temporal.v1",
+    "model_task": "temporal",
+    "golden_cases": []
+  },
+  {
+    "name": "project_classify",
+    "description": "Suggest an existing or evident project.",
+    "prompt_text": "Suggest a project only when the evidence supports it.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "project.v1",
+    "model_task": "project",
+    "golden_cases": []
+  },
+  {
+    "name": "topic_classify",
+    "description": "Suggest a topic hierarchy label.",
+    "prompt_text": "Suggest a concise topic based only on the evidence.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "topic.v1",
+    "model_task": "topic",
+    "golden_cases": []
+  },
+  {
+    "name": "relation_build",
+    "description": "Suggest related entries or entities.",
+    "prompt_text": "Return only explicit or strongly supported relationships.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "relations.v1",
+    "model_task": "relation",
+    "golden_cases": []
+  },
+  {
+    "name": "memory_extract",
+    "description": "Extract memory candidates while preserving evidence boundaries.",
+    "prompt_text": "Extract durable or episodic candidates; never issue database operations here.",
+    "input_schema_version": "entry.v1",
+    "output_schema_version": "memory_candidates.v1",
+    "model_task": "memory",
+    "golden_cases": [
+      {
+        "name": "durable",
+        "input": {
+          "content": "V100 最终固定 150W。"
+        },
+        "expected": {
+          "candidates": [
+            {
+              "salience": "durable"
+            }
+          ]
+        }
+      },
+      {
+        "name": "episodic",
+        "input": {
+          "content": "刚才临时测试 175W。"
+        },
+        "expected": {
+          "candidates": [
+            {
+              "salience": "episodic"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "salience_evaluate",
+    "description": "Evaluate durable, episodic or ignore salience.",
+    "prompt_text": "Choose exactly one salience and preserve temporary wording as episodic.",
+    "input_schema_version": "memory_candidate.v1",
+    "output_schema_version": "salience.v1",
+    "model_task": "salience",
+    "golden_cases": []
+  },
+  {
+    "name": "memory_reconcile",
+    "description": "Propose a finite reconciliation operation.",
+    "prompt_text": "Choose only ADD, SUPPORT, SUPERSEDE, CONFLICT, MERGE or IGNORE.",
+    "input_schema_version": "memory_context.v1",
+    "output_schema_version": "reconcile.v1",
+    "model_task": "reconcile",
+    "golden_cases": [
+      {
+        "name": "support",
+        "input": {
+          "content": "same value"
+        },
+        "expected": {
+          "operation": "SUPPORT"
+        }
+      },
+      {
+        "name": "conflict",
+        "input": {
+          "content": "8080 versus 8081"
+        },
+        "expected": {
+          "operation": "CONFLICT"
+        }
+      }
+    ]
+  },
+  {
+    "name": "query_understanding",
+    "description": "Understand query intent before retrieval.",
+    "prompt_text": "Extract intent, keywords, identifiers and time hints without answering.",
+    "input_schema_version": "query.v1",
+    "output_schema_version": "query_understanding.v1",
+    "model_task": "query",
+    "golden_cases": []
+  },
+  {
+    "name": "answer",
+    "description": "Answer from bounded retrieved evidence.",
+    "prompt_text": "Use only supplied sources. Label inference and refuse unsupported certainty.",
+    "input_schema_version": "ask_context.v1",
+    "output_schema_version": "answer.v1",
+    "model_task": "answer",
+    "golden_cases": []
+  }
+]

@@ -1,0 +1,3636 @@
+{
+  "generatedAt": "2026-09-17T00:16:39.393Z",
+  "referenceUrl": "http://localhost:3000",
+  "starmemUrl": "http://localhost:18780",
+  "samples": [
+    {
+      "id": "latin-title",
+      "kind": "latin",
+      "selector": "#fixture-brand"
+    },
+    {
+      "id": "latin-search",
+      "kind": "latin",
+      "selector": "#fixture-latin-search"
+    },
+    {
+      "id": "latin-settings",
+      "kind": "latin",
+      "selector": "#fixture-latin-settings"
+    },
+    {
+      "id": "latin-inbox",
+      "kind": "latin",
+      "selector": "#fixture-latin-inbox"
+    },
+    {
+      "id": "number",
+      "kind": "number",
+      "selector": "#fixture-number"
+    },
+    {
+      "id": "uuid",
+      "kind": "uuid",
+      "selector": "#fixture-uuid"
+    },
+    {
+      "id": "technical",
+      "kind": "technical",
+      "selector": "#fixture-technical"
+    },
+    {
+      "id": "cjk-title",
+      "kind": "cjk",
+      "selector": "#fixture-page-title"
+    },
+    {
+      "id": "cjk-navigation",
+      "kind": "cjk",
+      "selector": "#fixture-nav-timeline"
+    },
+    {
+      "id": "cjk-body",
+      "kind": "cjk",
+      "selector": "#fixture-chinese"
+    },
+    {
+      "id": "cjk-button",
+      "kind": "cjk",
+      "selector": "#fixture-button"
+    },
+    {
+      "id": "cjk-input",
+      "kind": "cjk",
+      "selector": "#fixture-cjk-input"
+    },
+    {
+      "id": "cjk-select",
+      "kind": "cjk",
+      "selector": "#fixture-select"
+    },
+    {
+      "id": "cjk-badge",
+      "kind": "cjk",
+      "selector": "#fixture-badge"
+    },
+    {
+      "id": "cjk-status",
+      "kind": "cjk",
+      "selector": "#fixture-status"
+    },
+    {
+      "id": "mixed",
+      "kind": "mixed",
+      "selector": "#fixture-mixed"
+    },
+    {
+      "id": "monospace-code",
+      "kind": "monospace",
+      "selector": "#fixture-code"
+    },
+    {
+      "id": "monospace-pre",
+      "kind": "monospace",
+      "selector": "#fixture-code-small"
+    }
+  ],
+  "combinations": [
+    {
+      "key": "1440x1000-light",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "light",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1440,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "1440x1000-dark",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "theme": "dark",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1440,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "1920x1080-light",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "light",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1920,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "1920x1080-dark",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "theme": "dark",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 1920,
+        "height": 1198,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "390x844-light",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "light",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 390,
+        "height": 1689,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "390x844-dark",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "theme": "dark",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 390,
+        "height": 1689,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "430x932-light",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "light",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 430,
+        "height": 1649,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    },
+    {
+      "key": "430x932-dark",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "theme": "dark",
+      "checks": [
+        {
+          "sample": "latin-title",
+          "kind": "latin",
+          "text": "StarMem",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Bold",
+              "glyphCount": 7
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-search",
+          "kind": "latin",
+          "text": "Search",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 6
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-settings",
+          "kind": "latin",
+          "text": "Settings",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 8
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "latin-inbox",
+          "kind": "latin",
+          "text": "Import Inbox",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 12
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "number",
+          "kind": "number",
+          "text": "18:41 · 150W · 3903",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 19
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "uuid",
+          "kind": "uuid",
+          "text": "traversal-e910a79d-0072-4a2c-baa1-3385b3c78e57",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 46
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "technical",
+          "kind": "technical",
+          "text": "node-3903 multipath undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 25
+            }
+          ],
+          "pass": true,
+          "reason": "exact primary Latin platform font"
+        },
+        {
+          "sample": "cjk-title",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-navigation",
+          "kind": "cjk",
+          "text": "时间线",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-body",
+          "kind": "cjk",
+          "text": "有什么需要记住的？",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 9
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-button",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-input",
+          "kind": "cjk",
+          "text": "设置",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-select",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-badge",
+          "kind": "cjk",
+          "text": "需复核",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "cjk-status",
+          "kind": "cjk",
+          "text": "已整理",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 3
+            }
+          ],
+          "pass": true,
+          "reason": "exact Tabler Reference CJK platform-font list"
+        },
+        {
+          "sample": "mixed",
+          "kind": "mixed",
+          "text": "node-3903 multipath 出现 undef",
+          "reference": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Noto Sans CJK SC",
+              "postScriptName": "NotoSansCJKsc-Regular",
+              "glyphCount": 2
+            },
+            {
+              "familyName": "Noto Sans",
+              "postScriptName": "NotoSans-Regular",
+              "glyphCount": 26
+            }
+          ],
+          "pass": true,
+          "reason": "exact mixed Latin/CJK platform-font list"
+        },
+        {
+          "sample": "monospace-code",
+          "kind": "monospace",
+          "text": "service: starmem openstack volume create --size 10",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 49
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "monospace-pre",
+          "kind": "monospace",
+          "text": "service: starmem",
+          "reference": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "starmem": [
+            {
+              "familyName": "Liberation Mono",
+              "postScriptName": "LiberationMono",
+              "glyphCount": 16
+            }
+          ],
+          "pass": true,
+          "reason": "exact monospace platform-font list"
+        },
+        {
+          "sample": "cjk-stability",
+          "reference": [
+            "Noto Sans CJK SC"
+          ],
+          "starmem": [
+            "Noto Sans CJK SC"
+          ],
+          "pass": true,
+          "reason": "one exact CJK family across Reference and StarMem title/navigation/body/button/input/select/badge/status/mixed"
+        }
+      ],
+      "pass": true,
+      "screenshot": {
+        "pass": true,
+        "diffPixels": 0,
+        "diffRatio": 0,
+        "width": 430,
+        "height": 1649,
+        "maxDiffRatio": 0.001
+      },
+      "browser": {
+        "reference": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        },
+        "starmem": {
+          "pass": true,
+          "consoleErrors": [],
+          "pageErrors": [],
+          "fontResponses": [],
+          "fontFailures": [],
+          "badFontResponses": [],
+          "badFontContentTypes": [],
+          "fontRequestDetails": [],
+          "fontRequests": 0
+        }
+      }
+    }
+  ],
+  "fatalError": null
+}

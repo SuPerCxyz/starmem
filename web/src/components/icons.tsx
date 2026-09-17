@@ -1,0 +1,47 @@
+/**
+ * Tabler official icon aliases.
+ *
+ * Keeping the existing semantic names avoids touching business handlers while
+ * making every rendered SVG come from @tabler/icons-react.
+ */
+export {
+  IconAlertTriangle as AlertTriangle,
+  IconArchive as Archive,
+  IconArrowUp as ArrowUp,
+  IconBrain as BrainCircuit,
+  IconCheck as Check,
+  IconChevronDown as ChevronDown,
+  IconChevronRight as ChevronRight,
+  IconClock as Clock3,
+  IconCopy as Copy,
+  IconDatabase as Database,
+  IconDots as MoreHorizontal,
+  IconDownload as Download,
+  IconEdit as Edit,
+  IconExternalLink as ExternalLink,
+  IconEye as Eye,
+  IconFileText as FileText,
+  IconFilter as Filter,
+  IconFolder as Folder,
+  IconHistory as History,
+  IconInbox as Inbox,
+  IconLink as Link2,
+  IconListDetails as ListDetails,
+  IconLogout as LogOut,
+  IconMenu2 as Menu,
+  IconPaperclip as Paperclip,
+  IconPhoto as Image,
+  IconPin as Pin,
+  IconPlayerPlay as PlayerPlay,
+  IconPlus as Plus,
+  IconRefresh as RotateCcw,
+  IconRobot as Robot,
+  IconSearch as Search,
+  IconSettings as Settings,
+  IconSparkles as Sparkles,
+  IconStar as Star,
+  IconTrash as Trash2,
+  IconTopologyStar3 as Topology,
+  IconUpload as Upload,
+  IconX as X,
+} from "@tabler/icons-react";

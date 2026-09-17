@@ -1,0 +1,46 @@
+# StarMem 全站页面 Inventory（Tabler 迁移）
+
+## 审计基线
+
+- 审计日期：2026-09-16
+- 前端入口：`web/src/main.tsx`；history adapter：`web/src/lib/routes.ts`。
+- Tabler source：`.reference/tabler`，commit `0776b88863690c9740d7d33988a8b5df66aad6dc`，version `1.5.1`。
+- 官方运行基线：`pnpm --filter @tabler/preview dev`，preview `http://localhost:3000`。
+- 目标：所有用户可访问 Route、嵌套详情、设置子页、认证、错误页和 modal/offcanvas surface 均有 Tabler source mapping，并覆盖 Empty、Loading、Error、Loaded。
+
+`Status` 只使用：`not-reviewed`、`mapped`、`in-progress`、`completed`、`blocked`。
+
+## 页面清单
+
+| Route | StarMem Page | Current Status / Layout | Target Pattern | Tabler Source Page / File | Tabler DOM Sections Used | States | Allowed Business Changes | CSS/Class Deviations | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `/` | 登录 / 应用启动 | 已有 React Auth；旧 Tailwind 单列 | Auth / Single | `sign-in.html` / `preview/pages/sign-in.astro`, `shared/components/cards/SignInCard.astro`, `shared/layouts/SingleLayout.astro` | `.page`, `.card`, `.card-body`, `.form-control`, `.btn` | Login, loading, auth error | 文案、Logo、字段、login handler | Logo + React handler | completed |
+| `/capture` | 记录 | 已有 Capture + Recent；旧 Tailwind Composer | Capture Workspace | `layout-vertical.html` / `shared/layouts/DefaultLayout.astro`, `docs/content/ui/forms/elements.mdx`, `preview/pages/dropzone.astro` | `.page-header`, `.page-body`, `.container-xl`, `.row`, `.card`, `.card-header`, `.form-control`, `.input-group`, `.btn`, `.dropzone` | Empty, saving, upload progress/error, loaded | text/URL/file/image、drag/drop、API | 原生 input 作为官方 dropzone 触发器 | completed |
+| `/timeline` | 时间线 | 已有筛选与日期列表；旧 Tailwind Feed | Browse / Activity | `activity.html` / `preview/pages/activity.astro`, `docs/content/ui/components/timeline.mdx` | `.page-header`, `.container-xl`, `.activity`, `.list-group`, `.list-group-item`, `.pagination` | Empty, loading, error, loaded | entries、日期、filters、pagination | 无计划视觉偏差 | completed |
+| `/search` | 搜索 | 已有三态；旧 Tailwind Search | Search Results | `search-results.html` / `preview/pages/search-results.astro`, `docs/content/ui/components/list-group.mdx` | `.page-header`, `.input-group`, `.form-control`, `.form-select`, `.card`, `.list-group`, `.badge`, `.empty` | No query, results, no results, loading/error | query、filters、saved searches、match data | 无计划视觉偏差 | completed |
+| `/ask` | 问记忆 | 已有 Chat + Sources；旧 Tailwind Chat | AI Chat | `chat.html` / `preview/pages/chat.astro`, `docs/content/ui/components/chat.mdx` | `.chat`, `.chat-bubbles`, `.chat-bubble`, `.card`, `.input-group`, `.btn`, `.list-group` | Empty, asking, answer/error, loaded | questions、answers、follow-up、sources | Sources 用官方 list/card | completed |
+| `/inbox` | Import Inbox | 已有输入任务列表；旧 Tailwind rows | Inbox / List | `email-inbox.html` / `preview/pages/email-inbox.astro`, `docs/content/ui/components/list-group.mdx` | `.page-header`, `.list-group`, `.list-group-item`, `.badge`, `.alert`, `.btn` | Empty, loading, error, processing/loaded | ingestion、retry、correction、attachments | 无计划视觉偏差 | completed |
+| `/workbench` | Knowledge Workbench | 已有三类对象与 Smart Views；旧 Tailwind master/detail | Dashboard / Master-detail | `layout-vertical.html` / `shared/layouts/DefaultLayout.astro`, `preview/pages/settings.astro` | `.row`, `.col-*`, `.card`, `.nav`, `.list-group`, `.datagrid`, `.badge` | Empty, loading, error, loaded | projects/topics/entities、review、summary、actions | 业务 master-detail glue | completed |
+| `/workbench/:kind/:id` | Project / Topic / Entity Detail | 逻辑嵌套详情 | Detail / Datagrid | `profile.html`, `settings.html` / `preview/pages/profile.astro`, `docs/content/ui/components/datagrid.mdx` | `.page-header`, `.card`, `.datagrid`, `.list-group`, `.nav-tabs` | Missing, loading, error, loaded | object summary、relations、history、actions | 无计划视觉偏差 | completed |
+| `/settings` | 设置总览 | More 管理页 | Settings | `settings.html` / `preview/pages/settings.astro`, `shared/layouts/SettingsLayout.astro` | `.page-header`, `.row`, `.col-*`, `.card`, `.nav-tabs`, `.list-group` | Empty, loading, error, loaded | section links、runtime status | 不增加假设置 | completed |
+| `/settings/models` | Model / Provider | 状态卡 | Form / Fieldset | `form-layout.html` / `preview/pages/form-layout.astro`, `docs/content/ui/forms/fieldset.mdx` | `.card`, `.card-header`, `.fieldset`, `.form-label`, `.form-control`, `.form-select`, `.alert`, `.badge` | Unconfigured, loading, error, configured | provider/base URL/models/capability action | API key runtime-only | completed |
+| `/settings/prompts` | Prompt Studio | Prompt master/detail | Settings / Tabs / Form | `settings.html`, `tabs.html` / `preview/pages/settings.astro`, `preview/pages/tabs.astro` | `.nav-tabs`, `.row`, `.col-*`, `.card`, `.form-control`, `.form-select`, `.badge` | Empty, loading, error, editor loaded | prompt data、clone、edit、preview、tests | textarea 是官方 form control | completed |
+| `/settings/prompts/:name/versions` | Prompt Version History | 逻辑嵌套列表 | Table / Activity | `tables.html`, `activity.html` / `preview/pages/tables.astro`, `preview/pages/activity.astro` | `.table`, `.table-responsive`, `.activity`, `.badge`, `.btn` | Empty, loading, error, loaded | version、status、model、schema、tests、actions | 无计划视觉偏差 | completed |
+| `/settings/prompts/:name/tests` | Prompt Tests | 逻辑嵌套测试列表 | Table / Result | `tables.html`, `settings.html` / `preview/pages/tables.astro`, `preview/pages/settings.astro` | `.table`, `.card`, `.alert`, `.badge`, `.form-control`, `.btn` | Empty, running, error, pass/fail loaded | test case、expected/actual/diff、run status | 无计划视觉偏差 | completed |
+| `/settings/jobs` | AI Jobs | 任务摘要列表 | Data Table / Logs | `tables.html`, `logs.html` / `preview/pages/tables.astro`, `preview/pages/logs.astro` | `.table`, `.table-responsive`, `.badge`, `.form-select`, `.btn` | Empty, loading, error, filtered/loaded | jobs、filter、retry、entry link | 移动端官方 responsive table/list | completed |
+| `/settings/jobs/:id` | AI Job Detail | 后端有接口的嵌套详情 | Detail / Datagrid | `logs.html`, `profile.html` / `preview/pages/logs.astro`, `docs/content/ui/components/datagrid.mdx` | `.page-header`, `.card`, `.datagrid`, `.alert`, `.btn` | Missing, loading, error, loaded | job metadata、error、retry | 无计划视觉偏差 | completed |
+| `/settings/memory` | Memory Lifecycle | 管理页列表 | List / Status | `activity.html`, `settings.html` / `preview/pages/activity.astro`, `docs/content/ui/components/status.mdx` | `.list-group`, `.list-group-item`, `.badge`, `.status`, `.btn` | Empty, loading, error, filtered/loaded | memory filter、confirm/expire/delete | 无计划视觉偏差 | completed |
+| `/settings/memory/:id` | Memory Detail | 后端有接口的嵌套详情 | Datagrid / Timeline | `profile.html`, `activity.html` / `docs/content/ui/components/datagrid.mdx`, `docs/content/ui/components/timeline.mdx` | `.datagrid`, `.activity`, `.badge`, `.list-group`, `.btn` | Missing, loading, error, loaded | fact、evidence、history、source、actions | 无计划视觉偏差 | completed |
+| `/settings/backup` | Backup / Batch | 数据搬迁与批处理 | Form / Dropzone | `form-layout.html`, `dropzone.html` / `preview/pages/form-layout.astro`, `preview/pages/dropzone.astro` | `.card`, `.form-control`, `.form-file`, `.dropzone`, `.progress`, `.alert`, `.btn` | Idle, uploading, progress, error/success | native export/import/reprocess | 原生 input 被官方 surface 包装 | completed |
+| `/sources` | Source Management | provenance 派生列表 | Browse / List-detail | `email-inbox.html`, `settings.html` / `preview/pages/email-inbox.astro`, `preview/pages/settings.astro` | `.card`, `.list-group`, `.list-group-item`, `.datagrid`, `.badge` | Empty, loading, error, loaded | existing provenance only | 无 Connector/Sync UI | completed |
+| `/entries/:id` | Entry Detail | 逻辑 Drawer | Detail / Datagrid / Markdown | `profile.html`, `markdown.html` / `preview/pages/profile.astro`, `preview/pages/markdown.astro` | `.page-header`, `.card`, `.datagrid`, `.prose`, `.list-group`, `.badge`, `.btn` | Missing, loading, error, loaded | raw、metadata、provenance、actions | Markdown overflow 使用官方 utility | completed |
+| `/entries/:id/history` | Entry Version History | 逻辑 Drawer | Activity / Diff | `activity.html`, `markdown.html` / `preview/pages/activity.astro`, `preview/pages/markdown.astro` | `.activity`, `.card`, `.table`, `.diff`, `.btn` | Empty, loading, error, loaded | versions、diff、back | diff text glue | completed |
+| `/ask/sources` | Ask Sources | 移动来源面板逻辑 surface | Offcanvas / List | `chat.html`, `offcanvas.html` / `preview/pages/chat.astro`, `docs/content/ui/components/offcanvas.mdx` | `.offcanvas`, `.offcanvas-header`, `.offcanvas-body`, `.list-group`, `.list-group-item` | Empty, loading, error, loaded | source title/time/type/snippet、entry link | mobile offcanvas integration | completed |
+| `/*` | 404 / Error | 应用 fallback | Error / Empty | `error-404.html`, `error-500.html` / `preview/pages/error-404.astro`, `preview/pages/error-500.astro`, `docs/content/ui/components/empty.mdx` | `.empty`, `.empty-title`, `.empty-subtitle`, `.btn`, `.alert` | 404, API error, retry | message、route action | React fallback glue | completed |
+
+## 迁移门禁
+
+- Route 总数：23 个逻辑表面。
+- 任何 `Status != completed` 的行都阻止全站迁移完成声明。
+- 每行必须关联 `docs/ui/TABLER_SOURCE_MAP.md` 的 Tabler source file、DOM sections、class fidelity 和 deviation。
+- 当前未实现的 External Connector、CLI/MCP、多人/RBAC、Graph、第三方 ingestion 不得为了填充页面而伪造。

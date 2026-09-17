@@ -1,0 +1,42 @@
+{
+  "name": "StarMem · Personal AI Memory",
+  "short_name": "StarMem",
+  "description": "A private, source-grounded memory repository.",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#eff6ff",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/starmem-logo.png",
+      "sizes": "1129x984",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "files",
+          "accept": [
+            "text/*",
+            "image/*",
+            "application/pdf",
+            "application/json",
+            "application/yaml",
+            "text/markdown"
+          ]
+        }
+      ]
+    }
+  }
+}
